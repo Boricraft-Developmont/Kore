@@ -1,0 +1,31 @@
+{
+  "name": "kore",
+  "version": "1.0.0",
+  "description": "Terminal emulator built for BorOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boricraft-Developmont/Kore.git"
+  },
+  "keywords": [
+    "Terminal",
+    "Console",
+    "Kore"
+  ],
+  "author": "Boricraft-Development",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Boricraft-Developmont/Kore/issues"
+  },
+  "homepage": "https://github.com/Boricraft-Developmont/Kore#readme",
+  "dependencies": {
+    "electron": "^16.0.5",
+    "xterm": "^4.15.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.14.5"
+  }
+}
